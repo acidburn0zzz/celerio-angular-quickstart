@@ -41,7 +41,7 @@
         <!-- H2 DATABASE SETTINGS -->
         <jdbc.groupId>com.h2database</jdbc.groupId>
         <jdbc.artifactId>h2</jdbc.artifactId>
-        <jdbc.version>1.4.187</jdbc.version>
+        <jdbc.version>2.0.206</jdbc.version>
 
         <jdbc.driver>org.h2.Driver</jdbc.driver>
         <jdbc.url>jdbc:h2:${project.build.directory}/db/angular-lab;MVCC=TRUE;FILE_LOCK=NO</jdbc.url>
